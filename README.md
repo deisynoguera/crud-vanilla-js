@@ -7,7 +7,6 @@ Este proyecto es una aplicación web sencilla desarrollada con HTML, CSS y JavaS
 - `index.html`: Archivo principal que contiene la estructura HTML de la aplicación.
 - `style.css`: Archivo de estilos para la interfaz de usuario.
 - `main.js`: Archivo JavaScript principal para la lógica de la aplicación.
-- `utils.js`: Archivo de utilidades, incluye funciones como la generación de UUID.
 - `view.js`: Archivo para la gestión de vistas o componentes visuales.
 
 ## Funcionalidades
@@ -22,18 +21,6 @@ Este proyecto es una aplicación web sencilla desarrollada con HTML, CSS y JavaS
 2. Abre `index.html` en tu navegador preferido.
 3. Modifica los archivos según tus necesidades para agregar nuevas funcionalidades o estilos.
 
-## Ejemplo de uso de la función UUID
-
-```js
-// En main.js o view.js
-// Importar la función (si usas módulos o Node.js)
-// const { generarUUID } = require('./utils');
-
-// Usar la función
-const id = generarUUID();
-console.log(id); // Ejemplo: 'f47ac10b-58cc-4372-a567-0e02b2c3d479'
-```
-
 ## Requisitos
 
 - Navegador web moderno (Chrome, Firefox, Edge, etc.)
@@ -41,7 +28,7 @@ console.log(id); // Ejemplo: 'f47ac10b-58cc-4372-a567-0e02b2c3d479'
 
 ## Autor
 
-Desarrollado por Vicente (o el nombre que prefieras).
+Desarrollado por Desisy.
 
 ---
 
