@@ -1,3 +1,51 @@
 body {
+  margin-top: 1em;
   background: #2c3e50;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1em;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background: #ecf0f1;
+  padding: 2em;
+  border-radius: 0.3em;
+}
+h4 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+button {
+  background: #2980b9;
+  border-width: 0;
+  border-radius: 0.3em;
+  padding: 0.3em;
+  max-height: 2.5em;
+  color: #ecf0f1;
+}
+.taskList {
+  display: flex;
+  flex-direction: column;
+  background: #ecf0f1;
+  border-radius: 0.5em;
+  width: 12.5em;
+  padding: 1em;
+  gap: 1em;
+}
+p {
+  margin: 0.2em;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #bdc3c7;
+  border-radius: 0.2em;
+  padding: 0.3em;
 }
